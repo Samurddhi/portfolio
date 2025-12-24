@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samruddhi Jagdale Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="video-background" id="homeVideoBg">
+        <video autoplay muted loop playsinline>
+            <source src="images/bg1.mp4" type="video/mp4">
+            <source src="images/bg1.mp4" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+    
+            <div class="logo">
+                <span>Samruddhi Jagdale</span>
+            </div>
+            
+       
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about_me.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="experience.html" class="nav-link">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Experience</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="certificates.html" class="nav-link">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certificates</span>
+                    </a>
+                </li>
+            </ul>
+            
+         
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="main-content">
+      
+        <section id="home" class="home-section">
+            <div class="container">
+           
+                <div class="left-section">
+                    <div class="work-btn-container">
+                        <button class="attractive-btn work-btn" id="workBtn">
+                            <span class="btn-text">My Work</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu work-dropdown" id="workDropdown">
+                            <a href="projects.html" class="dropdown-item" data-project="web">
+                                <i class="fas fa-globe"></i>
+                                <span>AAWSOM-Tours-and-Travels-website</span>
+                            </a>
+                            <a href="projects.html" class="dropdown-item" data-project="mobile">
+                                 <i class="fas fa-robot"></i>
+                                
+                                <span>Internal_chatbox</span>
+                            </a>
+                            <a href="projects.html" class="dropdown-item" data-project="design">
+                                <i class="fa-solid fa-bowl-food"></i>
+                                <span>Foodyy-Food Order Website</span>
+                            </a>
+                            <a href="projects.html" class="dropdown-item" data-project="ai">
+                               <i class="fa-solid fa-capsules"></i>
+                                <span>Natural_Remedies-A e-phrama-website</span>
+                            </a>
+                            <a href="projects.html" class="dropdown-item" data-project="opensource">
+                               <i class="fas fa-mobile-alt"></i>
+                                <span>IT-Website-Template</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="center-section">
+                    <div class="hero-content">
+                        <div class="name-title">
+                            <h1 class="first-name">Samruddhi</h1>
+                            <h1 class="last-name">Jagdale</h1>
+                        </div>
+                        <div class="title">
+                            <h2>Full Stack Developer</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="description">
+                            <p>A Computer Science Graduate Student</p>
+                        </div>
+                        <div class="cta-buttons">
+                            <a href="images/Samruddhi.pdf" class="cta-btn hire-btn" id="downloadCV">
+                                <i class="fas fa-download"></i>
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+           
+                <div class="right-section">
+                    <div class="skills-btn-container">
+                        <button class="attractive-btn skills-btn" id="skillsBtn">
+                            <span class="btn-text">My Skills</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu skills-dropdown" id="skillsDropdown">
+                            <a href="skills.html" class="dropdown-item" data-skill="frontend">
+                                <i class="fab fa-react"></i>
+                                <span>Frontend Development</span>
+                            </a>
+                            <a href="skills.html" class="dropdown-item" data-skill="backend">
+                                <i class="fab fa-node-js"></i>
+                                <span>Backend Development</span>
+                            </a>
+                            <a href="skills.html" class="dropdown-item" data-skill="database">
+                                <i class="fas fa-database"></i>
+                                <span>Database Management</span>
+                            </a>
+                            <a href="skills.html" class="dropdown-item" data-skill="uiux">
+                                <i class="fas fa-palette"></i>
+                                <span>UI/UX Design</span>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <h2 class="section-title">About Me</h2>
+                
+                <div class="about-content">
+                
+                    <div class="contact-side">
+                        <div class="contact-card">
+                            <h3>Contact Me</h3>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>jagdalesamruddhi23@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>8459227101</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Pune, Maharashtra</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>https://in.linkedin.com/in/samrudhi-jagdale-922146294</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>https://github.com/Samurddhi</span>
+                                </div>
+                            </div>
+                            <button class="contact-btn" id="contactBtn">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </div>
+
+                
+                    <div class="about-text-side">
+                        <p class="about-intro">
+                            I am a dynamic and innovative Computer Science graduate with a Bachelor's degree from Abhinav College of Computer Science.
+                            I excel in both front-end and back-end development and have a keen passion for creating user-friendly interfaces while
+                            enhancing accessibility. With a strong dedication to my work, I thrive on contributing to impactful projects and delivering
+                            high-quality results.   
+                        </p>
+                        <p class="about-description">
+                            
+                        </p>
+                                                
+                        
+                        <div class="profile-info">
+                            <p class="profile-title">SKILLS</p>
+                            <div class="profile-skills">
+                                <span class="profile-skill">HTML</span>
+                                <span class="profile-skill">CSS</span>
+                                <span class="profile-skill">Javascript</span>
+                                <span class="profile-skill">bootstrap</span>
+                                <span class="profile-skill">PHP</span>
+                                <span class="profile-skill">ReactJS</span>
+                                <span class="profile-skill">Tailwindcss</span>
+                                <span class="profile-skill">Java</span>
+                                <span class="profile-skill">Node.js</span>
+                                <span class="profile-skill">SQL</span>
+                                <span class="profile-skill">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+  
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Samurddhi" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://in.linkedin.com/in/samrudhi-jagdale-922146294" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                
+            </div>
+            <p>&copy; 2024 Samruddhi Jagdale Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
